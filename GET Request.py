@@ -28,7 +28,7 @@ def restconf_get(url):
 # --- Menu of useful RESTCONF resources ---
 resource_paths = {
     "1": ("/restconf/data/Cisco-IOS-XE-native:native/interface", "Interfaces"),
-    "2": ("/restconf/data/Cisco-IOS-XE-native:native/router/ospf", "OSPF Config"),
+    "2": ("/restconf/data/Cisco-IOS-XE-native:native/ip/route", "Static Config"),
     "3": ("/restconf/data/Cisco-IOS-XE-native:native", "Full Native Config"),
     "4": ("/restconf/data/Cisco-IOS-XE-native:native/hostname", "Hostname"),
     "5": ("/restconf/data/netconf-state/capabilities", "Capabilities (IETF YANG)"),
